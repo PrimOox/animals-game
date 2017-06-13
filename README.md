@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/profile/PrimOox/animals-game.svg?branch=master)](https://travis-ci.org/PrimOox/animals-game)
+[![Build Status](https://travis-ci.org/PrimOox/animals-game.svg?branch=master)](https://travis-ci.org/PrimOox/animals-game)
 
 Animal Guessing Game
 ====================
