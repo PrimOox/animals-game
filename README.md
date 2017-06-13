@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/profile/PrimOox/animals-game.svg?branch=master)](https://travis-ci.org/PrimOox/animals-game)
 
 Animal Guessing Game
 ====================
@@ -27,5 +27,3 @@ Example Game
                      Tubarão?
 
 
-
-# animals-game
