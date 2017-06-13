@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/PrimOox/animals-game.svg?branch=master)](https://travis-ci.org/PrimOox/animals-game)
-
 Animal Guessing Game
 ====================
 Java implementation of a binary search tree (BST) applied to the Animals Guessing Game.
