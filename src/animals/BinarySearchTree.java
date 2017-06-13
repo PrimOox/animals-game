@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class BinarySearchTree {
 
-	private Node root;
+	private No root;
 	static final String ROOT_CARAC = "vive na água";
 	static final String ROOT_R = "Macaco";
 	static final String ROOT_L = "Tubarão";
@@ -19,7 +19,7 @@ public class BinarySearchTree {
 		root.parent = root;
 	}
 
-	public Node getRoot() {
+	public No getRoot() {
 		return root;
 	}
 
@@ -27,7 +27,7 @@ public class BinarySearchTree {
 		JOptionPane.showMessageDialog(null, "Acertei de novo!");
 	}
 
-	private static int perguntar(Node node, String what) {
+	private static int perguntar(No node, String what) {
 		if (what.equals("caracteristica"))
 			return JOptionPane.showConfirmDialog(null,
 					String.format("O animal que você pensou %s?", ((Caracteristica) node).caracteristica), "Animais",
@@ -40,7 +40,7 @@ public class BinarySearchTree {
 		return -1;
 	}
 
-	public Node preOrder(Node atual) {
+	public No preOrder(No atual) {
 		if (!(atual instanceof Caracteristica))
 			return atual;
 
@@ -67,7 +67,7 @@ public class BinarySearchTree {
 		return null;
 	}
 
-	public void inserirNode(Node noAtual, String val) {
+	public void inserirNode(No noAtual, String val) {
 		String animalAtual = ((Animal) noAtual).name;
 		String animalNovo = JOptionPane.showInputDialog("Em qual animal você pensou?");
 

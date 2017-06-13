@@ -1,14 +1,14 @@
 package animals;
 
-public class Node {
+public class No {
 
-	Node parent;
-	Node rChild;
-	Node lChild;
+	No parent;
+	No rChild;
+	No lChild;
 
 }
 
-class Caracteristica extends Node {
+class Caracteristica extends No {
 	String caracteristica;
 
 	public Caracteristica(String caracteristica) {
@@ -17,7 +17,7 @@ class Caracteristica extends Node {
 
 }
 
-class Animal extends Node {
+class Animal extends No {
 	String name;
 
 	public Animal(final String name) {
